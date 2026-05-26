@@ -1,0 +1,18 @@
+# Railway deployment config for Path Darshak
+# After adding this repo to Railway, create two services:
+# - backend using Dockerfile.backend
+# - frontend using Dockerfile.frontend
+
+project = "pathdarshak"
+
+[[services]]
+name = "backend"
+path = "."
+dockerfile = "Dockerfile.backend"
+startCommand = "/app -config /config.yaml"
+
+[[services]]
+name = "frontend"
+path = "."
+dockerfile = "Dockerfile.frontend"
+startCommand = "nginx -g 'daemon off;'"
