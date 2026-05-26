@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
 ©AngelaMos | 2026
 README.md
@@ -115,3 +116,4 @@ This project includes step-by-step learning materials covering security theory, 
 ## License
 
 AGPL 3.0
+
